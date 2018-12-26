@@ -4,7 +4,8 @@ body{
     background-color: #fefeff;
     font-family: 'News Cycle', sans-serif;
     font-size: 0.8em;
-} 
+}
+
 
 .navbar{
     display: flex;
@@ -60,7 +61,7 @@ a:visited{
 
 
     /* Create the parallax scrolling effect with the image*/
-    background-image: url('landingpage/artpark.JPG');
+    background-image: url('pictures/artpark.JPG');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -142,73 +143,32 @@ h1{
     background-color: #fefeff;
 }
 
-
 .whoweare__description{
-    width: 57%;
-    margin-left: 3%;
-    background-color:   #f6fcff;
-    clip-path: polygon(0% 0%, 100% 11%, 100% 70%, 0% 85%);
-    position: relative;
-    display: flex;
-    justify-content: center;
+    width: 60%;
+    /* background-color: purple; */
 }
 
-.whoweare__description:before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    clip-path: polygon(0% 3%, 98% 14%, 98% 70%, 0% 85%);
-    background: white;
-    display: block;
-    position: absolute;
-    top: -6px;
-    left: 6px;
-}
-
-/*
-.whoweare__description{
-      position: relative;
-      width: 100%;
-      height: 100%;
-      background: rgba(40, 40, 40, 1);
-      box-sizing: border-box;
-      padding: 30px;
-      color: #fff;
-      margin-bottom: 200px;
-
-}
-
-	.whoweare__description:after{
-	   position: absolute;
-	      width: 100%;
-	      height: 100%;
-	      content: '';
-	      background: inherit;
-	      z-index: -1;
-	      top: 0;
-	      right: 0;
-	      bottom: 0;
-	      left: 0;
-	      transform-origin: top left;
-	      transform: skewY(-4deg);
-	}
-
-*/
-.description__box h1{
+.whoweare__description h1{
     margin: 0;
-    margin-top: -3em;
+    margin-left: 10%;
+    padding: 0;
 }
 
 .description__box{
-    width: 80%;
-    position: relative;
-    display: block;
-    margin: auto;
-
+    width: 65%;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.3);
+    border-width: 2px;
+    margin-left: 10%;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .description__box p{
-    margin-top: -0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .whoweare__photo{
@@ -218,26 +178,40 @@ h1{
 clip-path: polygon(0 0, 100% 7%, 100% 100%, 0% 100%);
 }
 
-	.photo__1{
-	    width: 100%;
-	    height: 100%;
-	    background-image: url("landingpage/peter_hugs_tony.png");   
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	     -moz-transform: scaleX(-1);
-	    -o-transform: scaleX(-1);
-	    -webkit-transform: scaleX(-1);
-	    transform: scaleX(-1);
-	    filter: FlipH;
-	    -ms-filter: "FlipH";
-	}
+.photo__1{
+    width: 100%;
+    height: 100%;
+    background-image: url("pictures/peter_hugs_tony.png");   
+    background-size: contain;
+    background-repeat: no-repeat;
+     -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
 
-
+/*
+.whoweare__photo img{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 15%;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+*/
 /* WHAT WE DO------------------------------------ */
 .whatwedo{
     width: 100%;
     height: 55%;
     visibility: hidden;
+    /* background-color: #f4f9f9; */
 }
 .fadeIn {
     -webkit-animation: animat_show 0.8s;
@@ -259,46 +233,30 @@ clip-path: polygon(0 0, 100% 7%, 100% 100%, 0% 100%);
     display: flex;
 }
 
-
 .whatwedo__description{
-    width: 54%;
-    margin-left: 3%;
-    margin-right: 3%;
-    background-color: white;
-    clip-path: polygon(0% 15%, 100% 2%, 100% 85%, 0% 77%);
-    position: relative;
-    display: flex;
-    justify-content: center;
+    width: 60%;
 }
-.whatwedo__description:before {
 
-    content: '';
-    width: 100%;
-    height: 100%;
-    clip-path: polygon(0% 18%, 98% 5%, 98% 83%, 0% 76%);
-    background-color: #f6fcff;
-    display: block;
-    position: absolute;
-    top: -3px;
-    left: 6px;
-}
 .whatwedo__description h1{
     margin: 0;
     padding: 0;
-    margin-top: -3em;
+    margin-left: 25%;
     color: #b9d1d1;
-    text-align: right;
 }
 
 .whatwedo__box{
-    width: 80%;
-    position: relative;
-    margin: auto;
+    width: 60%;
+    border-style: solid;
+    border-color: rgba(255,255,255,1);
+    border-width: 6px;
+    margin-left: 25%;
 }
 
 .whatwedo__box p{
     margin-top: 0.5em;
-    text-align: right;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .whatwedo__photo{
@@ -308,19 +266,18 @@ clip-path: polygon(0 0, 100% 7%, 100% 100%, 0% 100%);
     clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
 }
 
-	.photo__2{
-	    width: 100%;
-	    height: 100%;
-	    background-image: url("landingpage/alumni_panel.png");   
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	     -moz-transform: scaleX(-1);
-	    -o-transform: scaleX(-1);
-	    -webkit-transform: scaleX(-1);
-	    transform: scaleX(-1);
-	    filter: FlipH;
-	    -ms-filter: "FlipH";
-	}
+.whatwedo__photo img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
 
 
 /*Brothers --Section*/
@@ -339,60 +296,48 @@ clip-path: polygon(0 0, 100% 7%, 100% 100%, 0% 100%);
     background-color: #fefeff;
 }
 
-
-
 .brothers__description{
-    width: 54%;
-    margin-left: 3%;
-    margin-right: 3%;
-    background-color:   #f6fcff;
-    clip-path: polygon(0% 0%, 100% 7%, 100% 70%, 0% 85%);
-    position: relative;
-    display: flex;
-    justify-content: center;
+    width: 60%;
 }
-
-.brothers__description:before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    clip-path: polygon(0% 3%, 98% 10%, 98% 70%, 0% 85%);
-    background-color: white;
-    display: block;
-    position: absolute;
-    top: -6px;
-    left: 6px;
-}
-
 
 .brothers__description h1{
+
     margin: 0;
+    margin-left: 10%;
     padding: 0;
-    margin-top: -3em;
 }
 
 .brothers__box{
-    width: 80%;
-    position: relative;
-    margin: auto;
+    width: 60%;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.3);
+    border-width: 2px;
+    margin-left: 10%;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .brothers__box p{
-    margin-top: -0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 .brothers__photo{
     width: 40%;
     position: relative;
     -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
 clip-path: polygon(0 0, 100% 8%, 100% 100%, 0% 100%);
+    background-image: url('images/mainpage/brothers/brothers.png');
+    background-size: cover;
 }
-	.photo__3{
-	    width: 100%;
-	    height: 100%;
-	    background-image: url("landingpage/diplomas.png");
-       	    background-size: contain;
-	    background-repeat: no-repeat;
+	.brothers__photo img{
+		width: 100%;
+		position: absolute;
+		left: 0;
+		bottom: 15%;
 	}
+
 
 
 
@@ -447,59 +392,64 @@ clip-path: polygon(0 0, 100% 8%, 100% 100%, 0% 100%);
     -webkit-transform: none;
 }
 
-.flickity-button.flickity-prev-next-button.previous{
-	top: 70%;
-}
 
 
-.flickity-button.flickity-prev-next-button.next{
-	top: 35%;
-}
-
-.carousel.flickity-enabled.is-draggable{
-	background-color: #f6fcff;
-}
-
-/* CONTACT US  #f6fcff*/
+/* CONTACT US */
 .contact{
     width: 100%;
-    background-color: #f6fcff;
+    background-color: #e2e4e4;
+    padding-top: 1.5em;
+    margin-top: 7em;
 }
 
-.contact__trapezoid{
+.contactus{
     width: 100%;
-    height: 18%;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
-    clip-path: polygon(0% 60%, 100% 0%, 100% 100%, 0% 100%);
-    background-color: red;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
-
-.contact__trapezoid h1{
-	margin-top: 3em;
-	padding-right: 1em;
-	font-size: 2em;
-	margin-left: auto;
+.contact_social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.social__centerer{
+    width: 40%;
+    height: 4em;
+    display: flex;
+    justify-content: center;
 }
 
-.contact__trapezoid p{
-	float: right;
+.contact h1{
+    margin-bottom: 1em;
+    font-size: 1.4em;
+    text-align: center;
+    color: #fff;
 
 }
+
 .facebook{
     max-width: 100%;
     max-height: 100%;
-    margin-left: auto;
 }
 .instagram{
     max-width: 100%;
     max-height: 100%;
-    margin-left: auto;
     padding-left: 1.2em;
 }
 
+.credits{
+    width: 100%;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    background-color: #e2e4e4;
+}
+
+.credits p{
+    display: block;
+    margin: auto;
+}
 
 
 
