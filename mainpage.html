@@ -16,12 +16,23 @@
 
                     <img class="picture" src=' + image + '>
                     */
-                    $('body').append('<span class="mask"><div class="picturebox"><div class="exit_pic"></div></div></span>'); 
-                    $('.picturebox').css('background-image','url(' + image + ')');
+                    var mask = document.createElement('span');
+					mask.className = "mask";
+					var picturebox = document.createElement('div');
+					picturebox.className = "picturebox";
+					picturebox.style.backgroundImage = 'url(' + image + ')';
+					var exit_pic = document.createElement('div');
+					exit_pic.onclick = function(){
+						mask.remove();
 
-                    $(document).on("click",".exit_pic",function(){
-                        $(".mask").remove();
-                    });
+					}
+
+					exit_pic.className = "exit_pic";
+
+					picturebox.appendChild(exit_pic);
+					mask.appendChild(picturebox);
+
+                    $('body').append(mask); 
                 }
 
                 function fadetoPage(pathToPage){

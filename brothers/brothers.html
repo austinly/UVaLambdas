@@ -80,17 +80,16 @@
                 picturebox.innerHTML = listed_names;
                
                 
-
-                picturebox.style.justifyContent = "center";
                 var exit_pic = document.createElement('div');
                 exit_pic.className = "exit_pic";
                 picturebox.appendChild(exit_pic);
                 mask.appendChild(picturebox);
                 $('body').append(mask);
 
-                $(document).on("click",".exit_pic",function(){
-                    $(".mask").remove();
-                });
+                exit_pic.onclick = function(){
+						mask.remove();
+
+				}
             };
 
 			function createboxes(){
