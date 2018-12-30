@@ -123,6 +123,7 @@ font-family: 'Pathway Gothic One', sans-serif;
     margin-bottom: 0em;
     margin-top: 0;
     margin-right: 3%;
+    color: #3e5056;
 
 }
 
@@ -287,8 +288,8 @@ font-family: 'Pathway Gothic One', sans-serif;
 .contact{
 	width: 100%;
 	height: 200px;
-	background-color: #f4f4f4;
-	position: relative;
+    position: relative;
+    color : #6d7477;
 }
 
 .contact h3{
