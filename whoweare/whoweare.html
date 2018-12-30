@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Staatliches" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="whoweare.css">
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+		<link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+		<script>
+                function showimage(image){
+                    console.log("CLICKED");
+                    /*
+                    $('body').append('<span class="mask"><span class="picture"></span></span>'); 
+                    $('.picture').css('background-image','url(' + image + ')');
+                    $('.picture').css('background-size','cover');
+
+                    <img class="picture" src=' + image + '>
+                    */
+                    $('body').append('<span class="mask"><div class="picturebox"><div class="exit_pic"></div></div></span>'); 
+                    $('.picturebox').css('background-image','url(' + image + ')');
+
+                    $(document).on("click",".exit_pic",function(){
+                        $(".mask").remove();
+                    });
+                }
+
+	
+
+                
+        </script>   
+        
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="header">
+				<div class="whoweare__title">
+					<h1>Who</h1>
+					<h2>We Are</h2>
+				</div>
+				<div class="secondary_title">
+					<h3>Our History</h3>
+				</div>
+				<div class="header__right"></div>
+			</div>
+
+
+			<div class="box_container">
+				<div onclick="showimage()" class="national_box">
+					<p>National</p>
+				</div>
+				<div onclick="showimage()" class="chapter_box">
+					<p>Chapter</p>
+				</div>
+				<div onclick="showimage()" class="founding_box">
+					<p>Founders</p>
+				</div>
+			</div>
+
+
+
+		<!-- CONTACT US -->
+		<div class="contact">
+			<div class="contact_trapezoid">
+				<div class="contact__content">
+					<h3>Want to see more? Find us on Social Media!</h3>
+					<div class="image__container">
+						<div class="image__right">
+							<a href="https://www.facebook.com/uvalphie/" target="_blank"><img class="fb_icon" src="whoweare_pics/facebook.png"></a>
+							<a href="https://www.instagram.com/uvalphie/?hl=en" target="_blank"><img src="whoweare_pics/instagram.png"></a>
+						</div>
+					</div>
+					<p>Created and Designed by Min Jea "Zero Dark Curvy" Kim</p> 
+				</div>
+			</div>
+		</div>
+				
+		
+		
+		
+		
+		</div>
+	</body>
+</html>
