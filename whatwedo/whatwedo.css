@@ -118,7 +118,7 @@ font-family: 'Pathway Gothic One', sans-serif;
 }
 
 .whatwedo__title h1{
-    font-size: 21vmin;
+    font-size: 17vmin;
     padding-left: 5%;
     margin-bottom: 0em;
     margin-top: 0;
@@ -128,8 +128,8 @@ font-family: 'Pathway Gothic One', sans-serif;
 }
 
 .whatwedo__title h2{
-    font-size: 30vmin;
-    margin-top: -30px;
+    font-size: 26vmin;
+    margin-top: -20px;
     margin-bottom: 0;
     padding-left: 5%;
     color: #3e5056;
@@ -361,7 +361,7 @@ font-family: 'Pathway Gothic One', sans-serif;
 	}
 	
 	.whatwedo__title h1{
-		font-size: 7em;
+		font-size: 5em;
 	}
 
 	.whatwedo__title h2{

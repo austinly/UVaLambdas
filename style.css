@@ -2,7 +2,7 @@
     body{
         margin: 0;
         padding: 0;
-        background-color: ##fefeff;
+        background-color: #fefeff;
         font-family: 'News Cycle', sans-serif;
         font-size: 0.8em;
     } 
@@ -253,7 +253,7 @@
         width: 100%;
         height: 100%;
         clip-path: polygon(0% 3%, 98% 14%, 98% 70%, 0% 85%);
-        background: white;
+        background: #fefeff;
         display: block;
         position: absolute;
         top: -6px;
@@ -368,7 +368,7 @@
         width: 100%;
         height: 500px;
         display: flex;
-        background-color: #fff;
+        background-color: #fefeff;
     }
     
     .brothers__description{
@@ -389,7 +389,7 @@
         height: 100%;
         clip-path: polygon(0% 3%, 98% 10%, 98% 70%, 0% 85%);
         /* Color of inside of the trapezoid */
-        background-color: white;
+        background-color: #fefeff;
         display: block;
         position: absolute;
         top: -6px;
@@ -516,6 +516,10 @@
         bottom: 0;
         right: 15px;
     }
+
+    .contact__content{
+        font-size: 0.8em;
+    }
     
     .image__container{
         width: 100%;
@@ -546,7 +550,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 400px){
     .contact__content h3, p{
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     
