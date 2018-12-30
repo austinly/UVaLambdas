@@ -1,3 +1,4 @@
+@media screen and (min-width: 0px){
 body{
 	margin:0;
 	padding: 0;
@@ -105,115 +106,78 @@ font-family: 'Pathway Gothic One', sans-serif;
 	clip-path: polygon(0 0, 0% 100%, 100% 0);
 	position: relative;
 	background-image: url("whatwedo_pics/hold_flag.png");
-	background-size: cover;
+    background-size: cover;
+    position: relative;
 }
 
-.whoweare__title{
+.whatwedo__title{
 	position: absolute;
 	width: 100%;
-	height: 85%;
+    text-align: right;
+    bottom: 0;
 }
 
-.whoweare__title h1{
-	font-size: 7em;
-	padding-left: 5%;
-	margin-bottom: 0em;
-	color: #3e5056;
-    position: absolute;
-    right: 3vh;
+.whatwedo__title h1{
+    font-size: 21vmin;
+    padding-left: 5%;
+    margin-bottom: 0em;
     margin-top: 0;
+    margin-right: 3%;
+
 }
 
-.whoweare__title h2{
-	font-size: 11em;
-	text-align: right;
+.whatwedo__title h2{
+    font-size: 30vmin;
+    margin-top: -30px;
+    margin-bottom: 0;
+    padding-left: 5%;
     color: #3e5056;
-    position: absolute;
-    margin-top: 9%;
-    right: 3vh;
+    margin-right: 3%;
+}
+
+.whatwedo__title h4{
+    font-size: 4em;
+    text-align: right;
+    color: #3e5056;
+    margin-top: 0%;
+    margin-right: 3%;
+    margin-bottom: 0;
+    
 }
 
 .secondary_title{
-    width: 100%;
-    text-align: center;
-    height: 100%;
-    position: absolute;
-    z-index: 1em;
-    display: flex;
-    justify-content: center;
-    color: #b2c4ca;
+    display: none !important;
 }
-.secondary_title h3{
-    position: absolute;
-    font-size: 8vh;
-    margin-bottom: 0px;
-    bottom: 0.5em;
-    right: 3vh;
-}
-
 /*Philantrophy --Section*/
 
 .philantrophy{
-	width: 100%;
-	height: 30vh;
     float: right;
     position: relative;
 }
 
+.philantrophy h3{
+    font-size: 10vh;
+    text-align: right;
+    margin-right: 3%;
+	margin-top: 5%;
+    margin-bottom: 0;
+    color: #b2c4ca;
+}
+
 .phil_description{
-	width: 70%;
-    height: 100%;
-    position: absolute;
     right: 3vh;
 
 }
 .philantrophy p{
+	width: 90%;
     font-size: 2.5vh;
 	text-align: right;
     float: right;
     right: 3vh;
     margin-top: 0;
+    margin-right: 3%;
     color: #929292;
     font-family: 'News Cycle', sans-serif;
-}
-
-/*FIRST CAROUSEL*/
-* { box-sizing: border-box; }
-
-.carousel-cell {
-  width: 28%;
-  height: 300px;
-  margin-right: 10px;
-  background: #8C8;
-  border-radius: 5px;
-  counter-increment: carousel-cell;
-}
-
-.carousel img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.carousel-cell.is-selected {
-  background: #ED2;
-}
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  line-height: 200px;
-  font-size: 80px;
-  color: #f4f4f4;
-}
-
-.carousel .flickity-viewport{
-    -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
-    clip-path: polygon(0% 0%, 100% 25%, 100% 100%, 0% 75%);
-
-    margin-left: -8%;
-    background-color: #f4f4f4;
 }
 
 .flickity-page-dots{
@@ -240,17 +204,14 @@ font-family: 'Pathway Gothic One', sans-serif;
 
 /*SOCIAL SECTION*/
 .social{
-	width: 100%;
-	height: 40vh;
     padding-top: 7vh;
     margin-bottom: 2em;
 }
 
 .social_description{
-	width: 70%;
-	height: 100%;
+	width: 90%;
     font-size: 1.5em;
-    margin-left: 3vh;
+    margin-left: 3%;
 }
 
 .social_description h4{
@@ -303,7 +264,7 @@ font-family: 'Pathway Gothic One', sans-serif;
 .carousel2 .flickity-viewport{
     margin-left: -8%;
     background-color: #f4f4f4;
-    clip-path: polygon(0% 25%, 100% 0%, 100% 75%, 0% 100%);
+    clip-path: polygon(0% 40%, 100% 0%, 100% 60%, 0% 100%);
 }
 
 
@@ -383,3 +344,75 @@ font-family: 'Pathway Gothic One', sans-serif;
 
 
 
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 400px){
+    .contact__content h3, p{
+        font-size: 0.9em;
+    }
+    
+}
+
+@media screen and (min-width: 401px){
+    .contact__content h3{
+        font-size: 1.1em;
+	}
+	
+	.whatwedo__title h1{
+		font-size: 7em;
+	}
+
+	.whatwedo__title h2{
+		font-size: 9em;
+	}
+
+	.what h3{
+		font-size: 4em;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.whatwedo__title{
+		top: 0;
+	}
+
+	.whatwedo__title h1{
+		font-size: 15vmin;
+	}
+
+	.whatwedo__title h2{
+		font-size: 20vmin;
+    }
+
+    .whatwedo__title h4{
+        display: none !important;
+    }
+
+    .philantrophy p{
+        width: 70%;
+    }
+    .social p{
+        width: 70%;
+    }
+
+    .secondary_title{
+        display: block !important;
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        position: absolute;
+        z-index: 1em;
+        display: flex;
+        justify-content: center;
+        color: #b2c4ca;
+    }
+    .secondary_title h3{
+        position: absolute;
+        font-size: 8vh;
+        margin-bottom: 0px;
+        bottom: 0.5em;
+        right: 3vh;
+        
+    }
+}
