@@ -118,18 +118,18 @@ font-family: 'Pathway Gothic One', sans-serif;
 }
 
 .whatwedo__title h1{
-    font-size: 17vmin;
-    padding-left: 5%;
-    margin-bottom: 0em;
-    margin-top: 0;
+    font-size: 18vmin;
+	padding-left: 5%;
+	margin-bottom: 0em;
+	margin-top: 0;
     margin-right: 3%;
     color: #3e5056;
 
 }
 
 .whatwedo__title h2{
-    font-size: 26vmin;
-    margin-top: -20px;
+	font-size: 27vmin;
+    margin-top: -30px;
     margin-bottom: 0;
     padding-left: 5%;
     color: #3e5056;
@@ -350,9 +350,15 @@ font-family: 'Pathway Gothic One', sans-serif;
 
 @media screen and (min-width: 300px) and (max-width: 400px){
     .contact__content h3, p{
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
-    
+}
+
+@media screen and (min-width: 401px) and (max-width: 550px){
+
+    .contact__content h3{
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 401px){

@@ -51,15 +51,57 @@
             all_names["Pi"] = pi;
             all_names["Rho"] = row;
 
+            var greek_letters = {};
+            greek_letters["Charter"] = "";
+            greek_letters["Alpha"] = "&#913;";
+            greek_letters["Beta"] = "&#914;";
+            greek_letters["Gamma"] = "&#915;";
+            greek_letters["Delta"] = "&#916;"; 
+            greek_letters["Epsilon"] = "&#917;"; 
+            greek_letters["Zeta"] = "&#918;"; 
+            greek_letters["Eta"] = "&#919;";
+            greek_letters["Theta"] = "&#920;"; 
+            greek_letters["Iota"] = "&#921;";
+            greek_letters["Kappa"] = "&#922;"; 
+            greek_letters["Mu"] = "&#924;";
+            greek_letters["Nu"] = "&#925;";
+            greek_letters["Xi"] = "&#926;";
+            greek_letters["Omicron"] = "&#927;";
+            greek_letters["Pi"] = "&#928;";
+            greek_letters["Rho"] = "&#929;";
+
+            var class_start_num = {};
+            class_start_num["Charter"] = 1;
+            class_start_num["Alpha"] = 12;;
+            class_start_num["Beta"] = 15;
+            class_start_num["Gamma"] = 19;
+            class_start_num["Delta"] = 27; 
+            class_start_num["Epsilon"] = 31; 
+            class_start_num["Zeta"] = 35; 
+            class_start_num["Eta"] = 37;
+            class_start_num["Theta"] = 44; 
+            class_start_num["Iota"] = 52;
+            class_start_num["Kappa"] = 62; 
+            class_start_num["Mu"] = 65;
+            class_start_num["Nu"] = 69;
+            class_start_num["Xi"] = 76;
+            class_start_num["Omicron"] = 85;
+            class_start_num["Pi"] = 91;
+            class_start_num["Rho"] = 98;
 
 
 
             function showContent(){
                 var current_class = $(event.target).text();
+                if(current_class == "Charter"){
+                    current_class == "Charter";
+                }
+                else{
+                    current_class = current_class.split(" ")[1];
+                }
                 var content = document.getElementsByClassName("picturebox");
 
                 // get the name of the class whose div has been clicked
-                console.log("FUCK");
                 var mask = document.createElement('span');
                 mask.className = "mask";
                 
@@ -68,11 +110,13 @@
                 picturebox.style.display = 'flex';
 
 
-                listed_names = "<ul>" + current_class + " Class";
-               
+                listed_names = "<ul>" + "<span class='class_title'>" + current_class + " Class" + "</span>";
 
+               
+                var line_num = class_start_num[current_class];
                 for(name in all_names[current_class]){
-                    listed_names += "<li>" + all_names[current_class][name] + "</li>";
+                    listed_names += "<li>" + line_num.toString() + ". " + all_names[current_class][name] + "</li>";
+                    line_num++;
                 }
 
                 listed_names += "</ul>";
@@ -107,7 +151,7 @@
 					};
 
 
-					newDiv.innerHTML = "<p>" + house_classes[i] + "</p>";
+					newDiv.innerHTML = "<p>" + greek_letters[house_classes[i]] + " " + house_classes[i] + "</p>";
 					$('.box_container').append(newDiv);
 					
 				}
