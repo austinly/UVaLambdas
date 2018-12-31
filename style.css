@@ -680,6 +680,10 @@ h1{
         display: none;
     }
 
+    .burger_icon{
+        display: none !important;
+    }
+
 }
 @media screen and (min-width: 1024px){
     .logo{

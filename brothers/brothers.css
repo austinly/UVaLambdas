@@ -245,12 +245,6 @@ body{
 		color: white;
 	}
 
-	.test:hover{
-		font-size: 0.5em;
-		content: "Click To See More";
-		text-align: center;
-		background-color: black;
-	}
 
 	.test:hover p{
 		color: gray;
