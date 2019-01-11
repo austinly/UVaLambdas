@@ -9,41 +9,8 @@
         background-color: #fefeff;
         font-family: 'News Cycle', sans-serif;
         font-size: 0.8em;
+        
     } 
-
-    /* Background mask that appears when we get redirected to another page */
-    .mask2 {
-        background: white;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        -webkit-animation: fadein 0.4s; /* Safari, Chrome and Opera > 12.1 */
-           -moz-animation: fadein 0.4s; /* Firefox < 16 */
-            -ms-animation: fadein 0.4s; /* Internet Explorer */
-             -o-animation: fadein 0.4s; /* Opera < 12.1 */
-                animation: fadein 0.4s;
-    }
-        .transition{
-            display: block;
-            margin: auto;
-            position: auto;
-            margin-top: 26%;
-            width: 35%;
-            height: 35%;
-            z-index: 6999;
-            background-image: url(transition/transition_logo.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-            -webkit-animation: fadein 0.4s; /* Safari, Chrome and Opera > 12.1 */
-            -moz-animation: fadein 0.4s; /* Firefox < 16 */
-                -ms-animation: fadein 0.4s; /* Internet Explorer */
-                -o-animation: fadein 0.4s; /* Opera < 12.1 */
-                    animation: fadein 0.4s;
-        }
 
     /* Fade-in helper that dictates the opacity of fadein */
     @keyframes fadein {
@@ -108,7 +75,7 @@
             top: 10px;
             right: 10px;
             z-index: 9999;
-            background-image: url("landingpage/exitbutton.png");
+            background-image: url("pictures/landingpage/exitbutton.png");
             background-size: cover;
         }
         
@@ -119,7 +86,7 @@
                 top: 10px;
                 right: 10px;
                 z-index: 9999;
-                background-image: url("landingpage/exitbutton.png");
+                background-image: url("pictures/landingpage/exitbutton.png");
                 background-size: cover;
                 opacity: 0.7;
             }
@@ -137,7 +104,7 @@
 
 
     /* Create the parallax scrolling effect with the image*/
-    background-image: url('landingpage/artpark.JPG');
+    background-image: url('pictures/landingpage/artpark.JPG');
     /* background-attachment: fixed; */
     /* background-repeat: no-repeat; */
     background-position: center;
@@ -545,7 +512,7 @@ h1{
         .photo__1{
             width: 100%;
             height: 100%;
-            background-image: url("landingpage/peter_hugs_tony.png");   
+            background-image: url("pictures/landingpage/peter_hugs_tony.png");   
             background-size: contain;
             background-repeat: no-repeat;
             -moz-transform: scaleX(-1);
@@ -572,7 +539,7 @@ h1{
         .photo__2{
             width: 100%;
             height: 100%;
-            background-image: url("landingpage/alumni_panel.png");   
+            background-image: url("pictures/landingpage/alumni_panel.png");   
             background-size: contain;
             background-repeat: no-repeat;
              -moz-transform: scaleX(-1);
@@ -601,7 +568,7 @@ h1{
             .photo__3{
                 width: 100%;
                 height: 100%;
-                background-image: url("landingpage/diplomas.png");
+                background-image: url("pictures/landingpage/diplomas.png");
                     background-size: contain;
                 background-repeat: no-repeat;
             }
