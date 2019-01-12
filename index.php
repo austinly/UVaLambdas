@@ -62,9 +62,9 @@
             <nav class="desktop_nav">
                 <ul>
                     <!-- <li><a href="/LFESite/index.php"  class="link1">Home</a></li> -->
-                    <li><a href="/LFESite/templates/whoweare.php" class="link2">Who We Are</a></li>
-                    <li ><a href="/LFESite/templates/whatwedo.php" class="link3">What We Do</a></li>
-                    <li><a href="/LFESite/templates/brothers.php" class="link4">Brothers</a></li>
+                    <li><a href="templates/whoweare.php" class="link2">Who We Are</a></li>
+                    <li ><a href="templates/whatwedo.php" class="link3">What We Do</a></li>
+                    <li><a href="templates/brothers.php" class="link4">Brothers</a></li>
                 </ul>  
             </nav>
 

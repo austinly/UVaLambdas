@@ -194,7 +194,7 @@ font-family: 'Pathway Gothic One', sans-serif;
 	  content: "";
 	  background-image: url("../pictures/whoweare_pics/nat_founder.jpg");
 	  background-size: cover;
-	  opacity: 0.5;
+	  opacity: 0.3;
 	  top: 0;
 	  left: 0;
 	  bottom: 0;
@@ -238,7 +238,7 @@ font-family: 'Pathway Gothic One', sans-serif;
 	  content: "";
 	  background-image: url("../pictures/whoweare_pics/chapter.jpg");
 	  background-size: cover;
-	  opacity: 0.5;
+	  opacity: 0.3;
 	  top: 0;
 	  left: 0;
 	  bottom: 0;
@@ -279,7 +279,7 @@ font-family: 'Pathway Gothic One', sans-serif;
 	  content: "";
 	  background-image: url("../pictures/whoweare_pics/founders.jpg");
 	  background-size: cover;
-	  opacity: 0.5;
+	  opacity: 0.3;
 	  top: 0;
 	  left: 0;
 	  bottom: 0;
@@ -325,7 +325,7 @@ font-family: 'Pathway Gothic One', sans-serif;
       background-position: right -425px;
       background-repeat: no-repeat;
       background-color: #9CC1CF;
-	  opacity: 0.5;
+	  opacity: 0.3;
 	  top: 0;
 	  left: 0;
 	  bottom: 0;
@@ -354,7 +354,13 @@ font-family: 'Pathway Gothic One', sans-serif;
 		font-size: 3vw;
 		margin: auto;
 	}
-	
+
+
+@media screen and (min-width: 0px) and (max-width: 768px){
+    .box_container p{
+        font-size: 3em !important;
+    }
+}
 
 @media screen and (min-width: 768px){
 	.whoweare__title{
