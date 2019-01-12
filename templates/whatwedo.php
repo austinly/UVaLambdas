@@ -52,7 +52,7 @@
 	<body onload="transition()">
 		<div class="container">
 			<div id="dimScreen">
-				<img src="/LFESite/transition/transition_logo.png">
+				<img src="../transition/transition_logo.png">
 			</div>
 			<!-- Navbar -->
 			<?php include("../templates/header.php"); ?>

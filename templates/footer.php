@@ -15,8 +15,8 @@
                     <h3>Want to see more? Find us on Social Media!</h3>
                     <div class="image__container">
                         <div class="image__right">
-                            <a href="https://www.facebook.com/uvalphie/" target="_blank"><img class="fb_icon" src="/LFESite/pictures/landingpage/facebook.png"></a>
-                            <a href="https://www.instagram.com/uvalphie/?hl=en" target="_blank"><img src="/LFESite/pictures/landingpage/instagram.png"></a>
+                            <a href="https://www.facebook.com/uvalphie/" target="_blank"><img class="fb_icon" src="../pictures/facebook.png"></a>
+                            <a href="https://www.instagram.com/uvalphie/?hl=en" target="_blank"><img src="../pictures/instagram.png"></a>
                         </div>
                     </div>
                     <p>Created and Designed by Min Jea "Zero Dark Curvy" Kim</p> 

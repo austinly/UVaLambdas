@@ -174,7 +174,7 @@
 
     <body onload="createboxes()">
         <div id="dimScreen">
-            <img src="/LFESite/transition/transition_logo.png">
+            <img src="../transition/transition_logo.png">
         </div>
 		<div class="container">
 
