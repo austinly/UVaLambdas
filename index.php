@@ -54,7 +54,7 @@
         <div class="container">
 
             <!--NAVBAR  -->
-            <?php include(__DIR__ . "/templates/header.php"); ?>
+            <?php include("templates/header.php"); ?>
 
 
             <!-- Navbar exclusive to homepage -->
@@ -161,7 +161,7 @@
                     <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/8.jpg")'><img src="pictures/landingpage/carousel/7.jpg"></div>
             </section>
 
-            <?php include(__DIR__ . "templates/footer.php"); ?>
+            <?php include("templates/footer.php"); ?>
                   
             
     </div>
