@@ -150,18 +150,16 @@
                 </div>
             </section>
 	   
-            <div class="carousel_container">
-                <section class="carousel" data-flickity='{ "groupCells": true }'>
-                        <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/1.jpg")'><img src="pictures/landingpage/carousel/1.jpg"></div>
-                        <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/2.jpg")'><img src="pictures/landingpage/carousel/2.jpg"></div>
-                        <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/3.jpg")'><img src="pictures/landingpage/carousel/3.jpg"></div>
-                        <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/4.jpg")'><img src="pictures/landingpage/carousel/4.jpg"></div>
-                        <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/5.jpg")'><img src="pictures/landingpage/carousel/5.jpg"></div>
-                        <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/6.jpg")'><img src="pictures/landingpage/carousel/6.jpg"></div>
-                        <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/7.jpg")'><img src="pictures/landingpage/carousel/7.jpg"></div>
-                        <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/8.jpg")'><img src="pictures/landingpage/carousel/7.jpg"></div>
-                </section>
-            </div>
+            <section class="carousel" data-flickity='{ "groupCells": true }'>
+                    <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/1.jpg")'><img src="pictures/landingpage/carousel/1.jpg"></div>
+                    <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/2.jpg")'><img src="pictures/landingpage/carousel/2.jpg"></div>
+                    <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/3.jpg")'><img src="pictures/landingpage/carousel/3.jpg"></div>
+                    <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/4.jpg")'><img src="pictures/landingpage/carousel/4.jpg"></div>
+                    <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/5.jpg")'><img src="pictures/landingpage/carousel/5.jpg"></div>
+                    <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/6.jpg")'><img src="pictures/landingpage/carousel/6.jpg"></div>
+                    <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/7.jpg")'><img src="pictures/landingpage/carousel/7.jpg"></div>
+                    <div class="carousel-cell" onclick='showimage("pictures/landingpage/carousel/8.jpg")'><img src="pictures/landingpage/carousel/7.jpg"></div>
+            </section>
 
             <?php include("templates/footer.php"); ?>
                   
