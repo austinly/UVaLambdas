@@ -55,7 +55,7 @@
 				<img src="../transition/transition_logo.png">
 			</div>
 			<!-- Navbar -->
-			<?php include("../templates/header.php"); ?>
+			<?php include("../templates/secondary_header.php"); ?>
 
 			<div class="header">
 				<div class="whatwedo__title">

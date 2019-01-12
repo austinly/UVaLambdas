@@ -58,7 +58,7 @@
 	
 		<div class="container">
 			<!-- Navbar -->
-			<?php include("../templates/header.php"); ?>
+			<?php include("../templates/secondary_header.php"); ?>
 
 			<div class="header">
 				<div class="whoweare__title">
