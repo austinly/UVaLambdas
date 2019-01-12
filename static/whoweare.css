@@ -125,13 +125,8 @@ font-family: 'Pathway Gothic One', sans-serif;
 	-webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
 	clip-path: polygon(0 0, 100% 100%, 100% 0);
 	position: relative;
-	background-image: url("../pictures/whoweare_pics/love.jpg");
+    background-image: url("../pictures/whoweare_pics/love.jpg");
 	background-size: cover;
-	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 3s; /* Firefox < 16 */
-	 -ms-animation: fadein 3s; /* Internet Explorer */
-	  -o-animation: fadein 3s; /* Opera < 12.1 */
-		 animation: fadein 3s;
 }
 
 .whoweare__title{
