@@ -307,7 +307,7 @@ font-family: 'Pathway Gothic One', sans-serif;
 	}
 
 	.whatwedo__title h2{
-		font-size: 9em;
+		font-size: 8em;
 	}
 
 	.what h3{
@@ -322,17 +322,25 @@ font-family: 'Pathway Gothic One', sans-serif;
 }
 
 @media screen and (min-width: 768px){
-	.whatwedo__title{
-		top: 0;
+    #dimScreen img{
+		width: 12%;
+		height: auto;
+		margin: auto;
 	}
+	
 
-	.whatwedo__title h1{
-		font-size: 15vmin;
-	}
 
-	.whatwedo__title h2{
-		font-size: 20vmin;
+    .philantrophy h3{
+        margin-top: 0;
     }
+	.whatwedo__title h2{
+		font-size: 25vmin;
+    }
+
+    .whatwedo__title h1{
+		font-size: 7em;
+	}
+
 
     .whatwedo__title h4{
         display: none !important;

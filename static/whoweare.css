@@ -358,16 +358,19 @@ font-family: 'Pathway Gothic One', sans-serif;
 }
 
 @media screen and (min-width: 768px){
-	.whoweare__title{
-		top: 0;
+	#dimScreen img{
+		width: 12%;
+		height: auto;
+		margin: auto;
 	}
+	
 
 	.whoweare__title h1{
-		font-size: 15vmin;
+		font-size: 17vmin;
 	}
 
 	.whoweare__title h2{
-		font-size: 20vmin;
+		font-size: 25vmin;
 	}
 
 	.values_box{
