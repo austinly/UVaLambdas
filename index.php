@@ -52,6 +52,7 @@
     </style>
     <body>
         <div class="container">
+        
 
             <!--NAVBAR  -->
             <?php include("templates/header.php"); ?>

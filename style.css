@@ -146,6 +146,21 @@ h1{
     font-size: 3em;
 }
 
+a{
+    color: #388ead;
+
+}
+
+a:hover{
+    color: #3e5056;
+    
+}
+
+.desktop_nav a{
+    text-decoration: none;
+    color: #3e5056;
+  }
+
 
 
 /*Who We Are --Section*/
@@ -436,6 +451,17 @@ h1{
 
 
 @media screen and (min-width: 300px) and (max-width: 767px){
+    .whoweare__description{
+        clip-path: polygon(0% 0%, 100% 15%, 100% 63%, 0% 85%);
+    }
+
+    .whatwedo__description{
+        clip-path: polygon(0% 23%, 100% 0%, 100% 85%, 0% 71%);
+    }
+
+    .brothers__description{
+        clip-path: polygon(0% 0%, 100% 13%, 100% 63%, 0% 85%);
+    }
         
     .whoweare__description:before {
         display: none !important;

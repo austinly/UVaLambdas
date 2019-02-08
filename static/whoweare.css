@@ -380,19 +380,19 @@ font-family: 'Pathway Gothic One', sans-serif;
 
 
 	.national_box{
-		width: 30%;
-		margin-left: 2.5%;
+		width: 26.666%;
+		margin-left: 5%;
 	}
 
 	.chapter_box{
-		width: 30%;
-		margin-left: 2.5%;
+		width: 26.666%;
+		margin-left: 5%;
 		margin-right: 0;
 	}
 	
 	.founding_box{
-		width: 30%;
-		margin-left: 2.5%;
+		width: 26.666%;
+		margin-left: 5%;
 	}
 
 }

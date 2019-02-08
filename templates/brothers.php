@@ -25,10 +25,10 @@
             var kappa = ["Yutao 'Ssstephen Stawking' Chen", "Dasith 'Dark Kelly' Gunawardhana", "Eugene 'Captain Juk' Cai"];
             var mu = ["Felix 'Honorable Discharge' Cao", "Tony 'Speedbump' Wu", "Aki 'Horlax' Gao", "Kevin 'Kaygol Kommander' Wu"];
             var nu = ["Glenn 'Rear Admiral Lower HalF' Getty", "Herbert 'Second Coming' Kwok", "Daniel 'Chad McFly' Moon", "Robert 'SnakeS on A Train' Chan", "Richard 'FrisbeeTeam5' Young", "Benjamin 'TransformHER' Hyde", "YiJiang 'wrecKING bawls' Guo"];
-            var xi = ["Harrison 'AutoBlocks' Yu", "Sonny 'Side Beach' Moon", "Patrick 'PinK SaBBath' Muggill", "Jason 'Private Parks' Huang", "Jonathan 'Sonic the Edgehog' Ting", "Shaunn 'Girth Vader' Warmuth", "John 'Red Wiftpzrd' Herrick II", "Anthony 'shark bait OOH HA HA' Sanworanart", "Chris 'QWOP' Chueh"];
+            var xi = ["Harrison 'AutoBlocks' Yu", "Sonny 'Side Beach' Moon", "Patrick 'PinK SaBBath' Muggill", "Jason 'Private Parks' Huang", "Jonathan 'Sonic the Edgehog' Ting", "Shaunn 'GV' Warmuth", "John 'Red Wiftpzrd' Herrick II", "Anthony 'shark bait OOH HA HA' Sanworanart", "Chris 'QWOP' Chueh"];
             var omicron = ["Jose 'Taco Tuesday' Carballo", "Edmun 'Netflixxx and J.I.L.L' Pan", "Michael 'Forrest Dump' Wu", "Austin 'Death By Pu-Pu' Ly", "Salman 'Dark Magician...Girl' Guliwala", "Andrew '2FapTooFurious' Johnston"];
             var pi = ["Peter 'Twin-ki Bear' Kim", "Richard 'Maid In China' Li", "Roman '$pace Perp Queso RoBBer' Wang", "Chris 'unplaNNed parenthOOD Han", "Adrien '#boizwillbboyz' Bernard", "Andrew 'Red Head Redemption' Chen"];
-            var row = ["Steve 'Ur In My Way' Hong", "Nicholas 'St.i-Patch' Landi", "Bennett 'DoppelBänger' Gilliam", "Eric 'Bongzi Scheme' Ng", "Jonathan 'Clogtimus Prime' Wen", "Josef 'L'Oréal Kidz' Shim", "Duncan 'My Limping Pony' Crooks", "Dhaval 'Discount Cub Scout' Patel", "Eric 'Senpai Style' Zhang", "Min Jea 'Zero Dark Curvy' Kim"];
+            var row = [ "Nicholas 'St.i-Patch' Landi", "Bennett 'DoppelBänger' Gilliam", "Eric 'Bongzi Scheme' Ng", "Jonathan 'Clogtimus Prime' Wen", "Josef 'L'Oréal Kidz' Shim", "Duncan 'My Limping Pony' Crooks", "Dhaval 'Discount Cub Scout' Patel", "Eric 'Senpai Style' Zhang", "Min Jea 'Zero Dark Curvy' Kim"];
 
 
             // Add all the classes to one dictionary for next step
@@ -114,7 +114,12 @@
 
                
                 var line_num = class_start_num[current_class];
+                var missing_member = true;
                 for(name in all_names[current_class]){
+                    // if(name == 'Rho' & missing_member){
+                    //     line_num += 1;
+                    //     missing_member = false;
+                    // }
                     listed_names += "<li>" + line_num.toString() + ". " + all_names[current_class][name] + "</li>";
                     line_num++;
                 }

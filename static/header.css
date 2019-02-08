@@ -70,7 +70,7 @@ body input + label {
   body input ~ .mobile_nav >  ul >  li > a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #020304;
+    color: #3e5056;
     font-weight: 700;
     font-family: sans-serif;
     display: block;
