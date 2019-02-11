@@ -451,7 +451,7 @@ a:hover{
 
 
 @media screen and (min-width: 300px) and (max-width: 767px){
-    .whoweare__description{
+    /* .whoweare__description{
         clip-path: polygon(0% 0%, 100% 15%, 100% 63%, 0% 85%);
     }
 
@@ -461,9 +461,9 @@ a:hover{
 
     .brothers__description{
         clip-path: polygon(0% 0%, 100% 13%, 100% 63%, 0% 85%);
-    }
+    } */
         
-    .whoweare__description:before {
+    /* .whoweare__description:before {
         display: none !important;
     }
 
@@ -474,8 +474,20 @@ a:hover{
     
     .brothers__description:before {
         display: none !important;
+    } */
+    .whoweare__description{
+        background-color: #fefeff;
     }
-}
+
+    .whatwedo__description:before {
+        display: none !important;
+    }
+
+    
+    .brothers__description:before {
+        display: none !important;
+    }
+} 
 
 
 @media screen and (min-width: 768px){
