@@ -67,13 +67,16 @@
 			<section class="philantrophy">
 					<h3>Philantrophy</h3>
 				<div class="phil_description">
-				                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                                ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                 sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.</p>
+				                            <p>The Alpha Tau chapter of Lambda Phi Epsilon places 
+												a large emphasis on interaction with the greater University 
+												of Virginia community. The chapter hosts multiple large social 
+												events for the entire surrounding community to enjoy every year, 
+												as well as many opportunities to interact with other members of 
+												the Multicultural Greek Council and Asian-American community at 
+												the University. The brothers of the Alpha Tau chapter of Lambda
+												 Phi Epsilon also make it a personal goal to support the events 
+												 hosted by other organizations on grounds by participating 
+												 whenever possible.</p>
 				</div>
 
 			</section>
@@ -81,13 +84,15 @@
 			<section class="social">
 				<div class="social_description">
 					<h4>Social</h4>
-					 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                                ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                 sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.</p>
+					 <p>Lambda Phi Epsilon works with the National Marrow Donor Program (NMDP)
+						  to save the lives of patients requiring bone marrow transplants. In 1996,
+						   Lambda Phi Epsilon’s national philanthropy, Be The Match, was founded
+							and has been working closely with the fraternity on a national scale 
+							ever since. The Alpha Tau chapter of Lambda Phi Epsilon hosts bone 
+							marrow drives and a large university wide philanthropy event every 
+							year. In the past these events have included a comedy show, Flicks
+							 for Lives ultimate frisbee tournament, and Twitch Plays Lambdas 
+							 live streams, with all profits benefiting Be The Match.</p>
 				</div>
 			</section>
 

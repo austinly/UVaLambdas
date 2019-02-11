@@ -103,20 +103,25 @@ font-family: 'Pathway Gothic One', sans-serif;
     }
 .picturebox{
     display: block;
-    margin:auto;
-    position: fixed; 
+    margin: auto;
+    position: fixed;
     margin-top: 10%;
-    /* max-width: 50%; 
-	height: auto;  */
-	background-color: white;
-    width: 50%;
-    height: 60%;
+    background-color: white;
+    width: 68%;
+    /* height: 60%; */
     z-index: 6999;
     background-size: contain;
-    background-repeat: no-repeat;
+    text-align: center;
+    /* padding-top: 5em; */
+    padding: 2em;
+    padding-top: 4em;
+    font-size: 1.5em;
+	background-repeat: no-repeat;
 }
 
-
+#values{
+	font-size: 1em;
+}
 
 .header__right{
 	height: 100%;
@@ -311,7 +316,8 @@ font-family: 'Pathway Gothic One', sans-serif;
 	display: flex;
 	margin-top: 5%;
     margin-left: 7.5%;
-    margin-bottom: 4%;
+	margin-bottom: 4%;
+	font-size: 1em !important;
 }
 
     .values_box:after{

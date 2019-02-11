@@ -451,42 +451,18 @@ a:hover{
 
 
 @media screen and (min-width: 300px) and (max-width: 767px){
-    /* .whoweare__description{
-        clip-path: polygon(0% 0%, 100% 15%, 100% 63%, 0% 85%);
-    }
-
-    .whatwedo__description{
-        clip-path: polygon(0% 23%, 100% 0%, 100% 85%, 0% 71%);
-    }
-
-    .brothers__description{
-        clip-path: polygon(0% 0%, 100% 13%, 100% 63%, 0% 85%);
-    } */
-        
-    /* .whoweare__description:before {
-        display: none !important;
-    }
-
-    .whatwedo__description:before {
-        display: none !important;
-    }
-
-    
-    .brothers__description:before {
-        display: none !important;
-    } */
     .whoweare__description{
         background-color: #fefeff;
     }
 
-    .whatwedo__description:before {
-        display: none !important;
+    .whatwedo__description {
+        background-color: #f7fafb;
     }
 
-    
-    .brothers__description:before {
-        display: none !important;
+    .brothers__description{
+        background-color: #fefeff;
     }
+
 } 
 
 

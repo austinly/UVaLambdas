@@ -91,12 +91,7 @@
                     <div class="whoweare__description">
                         <div class="description__box">
                             <h1>Who we are</h1>
-                            <p>Lambda Phi Epsilon is the first and only Internationally recognized Asian-American interest fraternity,
-                             with 58 chapters spanning the United States and Canada, and thousands of brothers. Grounded
-                              on the principles of wisdom, honor, and courage, Lambda Phi Epsilon strives to provide
-                               opportunities for young men to grow throughout their college years, and beyond, as
-                                inspirational leaders and men of morals, encouraging service to the community and 
-                                academic excellence. 
+                            <p>Lambda Phi Epsilon is the first and only internationally recognized Asian interest fraternity, with 58 chapters and thousands of brothers spanning the United States and Canada. Grounded on the principles of wisdom, honor, and courage, Lambda Phi Epsilon strives to provide opportunities for young men to grow throughout their college years and beyond as inspirational leaders and men of morals
 .</p>
                             <a onclick='fadetoPage("templates/whoweare.php")'>Read more on Who We Are</a>
                         </div>
@@ -116,11 +111,7 @@
                     <div class="whatwedo__description">
                             <div class="whatwedo__box">
                                 <h1>What We Do</h1>
-                                <p>The brothers of Lambda Phi Epsilon strive to be a pillar to the 
-                                surrounding community and a constant example of the values they represent.
-                                 The Alpha Tau chapter hosts a variety of events on a yearly basis, ranging
-                                  from social mixers, to philanthropy events in partnership with Be The Match,
-                                   our national philanthropy. </p>
+                                <p>The brothers of Lambda Phi Epsilon at the University of Virginia aim to be a pillar in the surrounding community and a constant example of the values they represent. The Alpha Tau chapter hosts a variety of events throughout the school year, ranging from social mixers to philanthropy events in partnership with Be The Match, our national philanthropy.  </p>
                                 <a onclick='fadetoPage("templates/whatwedo.php")'>Read more on Who We Are</a>
                             </div>
                     </div>
@@ -133,9 +124,8 @@
                     <div class="brothers__description">
                         <div class="brothers__box">
                             <h1>Brothers</h1>
-                            <p>The Alpha Tau chapter has been steadily increasing over the last 10 years,
-                             recently crossing into triple digits. We are a tight knit family, dedicated 
-                             to each other and our questions for self improvement.
+                            <p>The Alpha Tau chapter has been steadily growing over the last 10 years, with the chapter roster recently crossing into the 100s. We are a tight knit family, dedicated to each other and our questions for self improvement. 
+
                             </p>
                                 <a onclick='fadetoPage("templates/brothers.php")'>Read more on Who We Are</a>
                         </div>
