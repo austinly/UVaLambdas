@@ -1,0 +1,90 @@
+/*Contact Us*/
+.contact{
+    width: 100%;
+    height: 200px;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.contact h3{
+    color: #6d7477;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.contact_trapezoid{
+    width: 100%;
+    height: 100%;
+    background-color: #d3d5d6;
+    -webkit-clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    position: relative;
+}
+
+.contact__content{
+    width: 70%;
+    height: 70%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+
+.contact__content{
+    font-size: 0.8em;
+}
+
+.image__container{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+    .image__container img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .fb_icon{
+        margin-right: 1em;
+    }
+
+    .image__right{
+        height: 100%;
+        float: right;
+        position: absolute;
+        margin-right: 0;
+        right: 1em;
+    }
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 400px){
+    .contact__content h3, p{
+        font-size: 1em;
+    }
+
+    .link1{
+        margin-left: -4em;
+    }
+
+    .link2{
+        margin-left: -4em;
+    }
+
+    .link4{
+        margin-left: -3em;
+    }
+   
+}
+
+@media screen and (min-width: 401px) and (max-width: 550px){
+    .contact__content h3{
+        font-size: 1.1em;
+    }
+}

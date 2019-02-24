@@ -1,0 +1,148 @@
+{% load static %}
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script>
+                function showCarouselImage(image_num){
+                    console.log("CLICKED");
+                    image = "{% static 'images/landingpage/carousel/' %}" + image_num + ".jpg";
+                    var mask = document.createElement('span');
+					mask.className = "mask";
+					var picturebox = document.createElement('div');
+					picturebox.className = "picturebox";
+					picturebox.style.backgroundImage = 'url(' + image + ')';
+					var exit_pic = document.createElement('div');
+					exit_pic.onclick = function(){
+						mask.remove();
+
+					}
+
+					exit_pic.className = "exit_pic";
+
+					picturebox.appendChild(exit_pic);
+					mask.appendChild(picturebox);
+
+                    $('body').append(mask); 
+                }
+
+                function fadetoPage(pathToPage){
+                    // $('body').append('<span class="mask2"><div class="picturebox"><div class="transition"></div></div></span>'); 
+                    // var timer = setTimeout(function() {
+                        window.location= pathToPage;
+                    // }, 400);
+               
+                }
+                
+        </script>   
+        
+
+    </head>
+    <title>UVa Lambdas</title>
+    <style>
+    </style>
+    <body>
+        <div class="container">
+        
+
+            <!--NAVBAR  -->
+            {% include 'header.html' %}
+
+            <!-- Navbar exclusive to homepage -->
+            
+            <nav class="desktop_nav">
+                <ul>
+                    <li><a href="{% url 'whoweare' %}" class="link2">Who We Are</a></li>
+                    <li><a href="{% url 'whatwedo' %}" class="link3">What We Do</a></li>
+                    <li><a href="{% url 'brothers' %}" class="link4">Brothers</a></li>
+                </ul>  
+            </nav>
+
+            <!-- LANDINGPAGE -->
+            <section class="landingpage" id = "landingpage">
+                    <div class="logo">
+                        <img src="{% static 'images/landingpage/LambdasLogo.png' %}">
+                    </div>
+
+                <div class="inner_page">
+                    
+
+                </div>
+            </section>
+
+
+            
+
+
+            <!--WHO WE ARE-->
+            <div class="whoweare" id = "whoweare">
+                <div class="whoweare__trapezoid">
+                    <div class="whoweare__description">
+                        <div class="description__box">
+                            <h1>Who we are</h1>
+                            <p>Lambda Phi Epsilon is the first and only internationally recognized Asian interest fraternity, with 58 chapters and thousands of brothers spanning the United States and Canada. Grounded on the principles of wisdom, honor, and courage, Lambda Phi Epsilon strives to provide opportunities for young men to grow throughout their college years and beyond as inspirational leaders and men of morals
+.</p>
+                            <a onclick='fadetoPage("{% url 'whoweare' %}")'>Read more on Who We Are</a>
+                        </div>
+                    </div>
+                    <div class="whoweare__photo">
+		    	        <div class="photo__1"></div>
+		            </div>
+                </div>
+            </div>
+
+            <!--WHAT WE DO-->
+            <section class="whatwedo" id="whatwedo">
+                <div class="whatwedo__trapezoid">
+                    <div class="whatwedo__photo">
+			            <div class="photo__2"></div>
+		            </div>
+                    <div class="whatwedo__description">
+                            <div class="whatwedo__box">
+                                <h1>What We Do</h1>
+                                <p>The brothers of Lambda Phi Epsilon at the University of Virginia aim to be a pillar in the surrounding community and a constant example of the values they represent. The Alpha Tau chapter hosts a variety of events throughout the school year, ranging from social mixers to philanthropy events in partnership with Be The Match, our national philanthropy.  </p>
+                                <a onclick='fadetoPage("{% url 'whatwedo' %}")'>Read more on Who We Are</a>
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BROTHERS -->
+            <section class="brothers" id="brothers">
+                <div class="brothers__trapezoid">
+                    <div class="brothers__description">
+                        <div class="brothers__box">
+                            <h1>Brothers</h1>
+                            <p>The Alpha Tau chapter has been steadily growing over the last 10 years, with the chapter roster recently crossing into the 100s. We are a tight knit family, dedicated to each other and our questions for self improvement. 
+
+                            </p>
+                                <a onclick='fadetoPage("{% url 'brothers' %}")'>Read more on Who We Are</a>
+                        </div>
+                    </div>
+                    <div class="brothers__photo">
+			            <div class="photo__3"></div>
+		            </div>
+                </div>
+            </section>
+	   
+            <section class="carousel" data-flickity='{ "groupCells": true }'>
+                <div class="carousel-cell" onclick='showCarouselImage(1)'><img src="{% static "images/landingpage/carousel/1.jpg" %}"></div>
+                <div class="carousel-cell" onclick='showCarouselImage(2)'><img src="{% static "images/landingpage/carousel/2.jpg" %}"></div>
+                <div class="carousel-cell" onclick='showCarouselImage(3)'><img src="{% static "images/landingpage/carousel/3.jpg" %}"></div>
+                <div class="carousel-cell" onclick='showCarouselImage(4)'><img src="{% static "images/landingpage/carousel/4.jpg" %}"></div>
+                <div class="carousel-cell" onclick='showCarouselImage(5)'><img src="{% static "images/landingpage/carousel/5.jpg" %}"></div>
+                <div class="carousel-cell" onclick='showCarouselImage(6)'><img src="{% static "images/landingpage/carousel/6.jpg" %}"></div>
+                <div class="carousel-cell" onclick='showCarouselImage(7)'><img src="{% static "images/landingpage/carousel/7.jpg" %}"></div>
+                <div class="carousel-cell" onclick='showCarouselImage(8)'><img src="{% static "images/landingpage/carousel/8.jpg" %}"></div>
+            </section>
+
+            {% include "footer.html" %}              
+            
+    </div>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+lphie_web:
+  image: tp33/django
+  container_name: lphie_web
+  external_links:
+    - lphie_db:db
+  ports:
+    - "8000:8000"
+  volumes:
+    - ./alphatau_site:/app
+  command: >
+    bash -c "
+    python manage.py collectstatic --no-input &&
+    python manage.py makemigrations && 
+    python manage.py migrate &&
+    mod_wsgi-express start-server --reload-on-changes alphatau_site/wsgi.py"
